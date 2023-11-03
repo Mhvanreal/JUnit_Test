@@ -12,7 +12,10 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     @org.junit.jupiter.api.Test
+    // metode pengujian unit.
     fun addition_isCorrect() {
+
+        // memeriksa apakah hasil penjumlahan 2+2 adalah 4
         assertEquals(4, 2 + 2)
     }
 }

@@ -15,10 +15,15 @@ import org.junit.Assert.*
  */
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
+
+    // metode pengujian
     @Test
     fun useAppContext() {
         // Context of the app under test.
+
+        //mendapatkan konteks aplikasi dari perangkat di bawah pengujian
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
+        // memeriksa apakah nama paket aplikasi adalah com.example.junit_test
         assertEquals("com.example.junit_test", appContext.packageName)
     }
 }
